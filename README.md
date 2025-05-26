@@ -8,12 +8,13 @@ This project was founded by **Radhwan Majdoub** (`radoinmajdoub@gmail.com`). It 
 
 ## Features
 
-- SHA-256-based mining algorithm
-- 50 million BTX max supply
-- 10% allocation for the founder
-- 10% allocation for the non-profit foundation
-- Fully decentralized node-based network
-- Dynamic block rewards every 10 minutes
+- SHA-256-based mining algorithm  
+- 50 million BTX max supply  
+- 10% allocation for the founder via the Genesis Block  
+- 10% allocation for the non-profit foundation via the Genesis Block  
+- Fully decentralized node-based network  
+- Dynamic block rewards every 10 minutes  
+- Open-source and community-driven
 
 ## Getting Started
 
