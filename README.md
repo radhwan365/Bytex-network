@@ -1,23 +1,45 @@
-# إعداد اسم المستخدم والبريد الإلكتروني لحساب Git
+# Bytex Network
+
+**Bytex** is a decentralized blockchain network built from scratch to support a fair and transparent distribution model based on computational contribution. The network is designed to be lightweight, efficient, and community-driven.
+
+## Founder
+
+This project was founded by **Radhwan Majdoub** (`radoinmajdoub@gmail.com`). It is now being donated to a non-profit foundation for open-source development and adoption.
+
+## Features
+
+- SHA-256-based mining algorithm
+- 50 million BTX max supply
+- 10% allocation for the founder
+- 10% allocation for the non-profit foundation
+- Fully decentralized node-based network
+- Dynamic block rewards every 10 minutes
+
+## Getting Started
+
+To initialize and push the full Bytex blockchain to GitHub:
+
+```bash
+# Set up Git user credentials
 git config --global user.name "Radhwan Majdoub"
 git config --global user.email "radoinmajdoub@gmail.com"
 
-# فك ضغط الملف
+# Unzip the Bytex project
 unzip BytexNetwork.zip
 cd BytexNetwork
 
-# تهيئة مستودع Git جديد
+# Initialize a new Git repository
 git init
 
-# ربط المستودع المحلي بمستودع GitHub (تأكد من أن الرابط صحيح بدون نقطة في النهاية)
+# Add the remote GitHub repository
 git remote add origin https://github.com/radhwan/bytex-network.git
 
-# إضافة جميع الملفات
+# Add all project files
 git add .
 
-# عمل أول commit
+# Commit the files
 git commit -m "Initial commit of Bytex blockchain by Radhwan Majdoub"
 
-# دفع التغييرات إلى الفرع الرئيسي في GitHub
+# Push the code to the main branch
 git branch -M main
 git push -u origin main
