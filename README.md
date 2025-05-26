@@ -1,5 +1,5 @@
 git config --global user.name "Radhwan Majdoub"
-git config --global user.email "your-email@example.com"  # استبدله ببريدك الحقيقي
+git config --global user.email "radoinmajdoub@gmail.com"  # استبدله ببريدك الحقيقي
 
 # فك ضغط الحزمة أولًا
 unzip BytexNetwork.zip
